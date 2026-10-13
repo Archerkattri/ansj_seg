@@ -20,7 +20,7 @@ public class ExtractingTest {
 	@Test
 	public void test() throws IOException, RuleFormatException {
 
-		Extracting extracting = new Extracting(LexicalTest.class.getResourceAsStream("/rule.txt"), "utf-8") ;
+		Extracting extracting = new Extracting(ExtractingTest.class.getResourceAsStream("/rule.txt"), "utf-8") ;
 
 		ExtractingResult result = null ;
 
